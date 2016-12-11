@@ -17,6 +17,7 @@ Link: https://leetcode.com/contest/leetcode-weekly-contest-12
 		转移方程：
 		f[k][i][j] = max(f[k][i][j], f[k-1][i - cnt[i][0]][j - cnt[j][1]] + 1);
 	- Note: 可以使用滚动数组优化内存：
+		```
 	
 		```c
 		(i, j) = (m, n) -> (cnt[i][0], cnt[j][1]):
