@@ -27,9 +27,9 @@ Link: https://leetcode.com/contest/leetcode-weekly-contest-12
 	- Solution: 递归枚举。根据当前的字串 s，依次从长度 1 开始枚举字符串 substr1，并且递归剩下的字符串 substr2，即 s = substr1 + substr2 。假设 substr1 的循环节为 subcycle1，循环节个数为k，更新如下：
 
 		```c
-		1). 如果 substr1 字串不存在循环节：
+		1). 如果 substr1 子串不存在循环节：
 			ret = substr1 + encode(substr2);
-		2). 如果 substr1 字串存在循环节：
+		2). 如果 substr1 子串存在循环节：
 			ret = to_string(k) + "[" + encode(subcycle1) + "]" + encode(substr2);
 		```	
 	- Note: 在递归的过程中会有很多重复的状态，用 map<string, string> 来保存状态剪枝。
