@@ -5,6 +5,19 @@ I will record some valuable problems.
 ## Contents
 
 ### LeetCode Weekly Contest 12
+Link: https://leetcode.com/contest/leetcode-weekly-contest-13
+- (A). Hamming Distance
+	- Solution: 循环判断计数即可
+- (B). Total Hamming Distance
+	- Solution: 对于每一位 bit，在数组中，求 0 的个数以及 1 的个数，则答案为 ∑ (cnt_0 * cnt_1)。
+- (C). Matchsticks to Square
+	- Solution: 数据很小，直接暴力 dfs 枚举即可。
+	- Note: 需要先逆序排序剪枝优化。
+- (D). Concatenated Words
+	- Solution: 首先对字符串序列按字典顺排序，然后对于每个字符串 dfs 查找。对于当前字符串，从头开始查找每个子串看是否存在序列中，这里用二分查找，如果存在，继续查找下一个子串。
+	- Node: 也可以用字典树来查找。
+
+### LeetCode Weekly Contest 12
 Link: https://leetcode.com/contest/leetcode-weekly-contest-12
 - (A). Heaters
 	- Solution: 遍历 house，每个 house 最近的 heater 距离为 minL，所有 minL 的最大值。
