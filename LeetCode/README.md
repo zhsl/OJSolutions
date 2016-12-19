@@ -15,7 +15,7 @@ Link: https://leetcode.com/contest/leetcode-weekly-contest-13
 	- Note: 需要先逆序排序剪枝优化。
 - (D). Concatenated Words
 	- Solution: 首先对字符串序列按字典序排序，然后对于每个字符串 dfs 查找。对于当前字符串，从头开始查找每个子串看是否存在序列中，这里用二分查找，如果存在，继续查找下一个子串。
-	- Node: 也可以用字典树来查找，或者直接用 set 容器。
+	- Note: 也可以用字典树来查找，或者直接用 set 容器。
 
 ### LeetCode Weekly Contest 12
 Link: https://leetcode.com/contest/leetcode-weekly-contest-12
