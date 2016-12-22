@@ -4,7 +4,7 @@ I will record some valuable problems.
 
 ## Contents
 
-### LeetCode Weekly Contest 12
+### LeetCode Weekly Contest 13
 Link: https://leetcode.com/contest/leetcode-weekly-contest-13
 - (A). Hamming Distance
 	- Solution: 循环判断计数即可
