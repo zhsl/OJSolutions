@@ -4,6 +4,17 @@ I will record some valuable problems.
 
 ## Contents
 
+### LeetCode Weekly Contest 14
+Link: https://leetcode.com/contest/leetcode-weekly-contest-14
+- (A). Number Complement
+	- Solution: Easy Problem
+- (B). Magical String
+	- Solution: 直接循环即可
+- (C). License Key Formatting
+	- Solution: 遍历判断一下
+- (D). Sliding Window Median
+	- Solution: 维护两个堆，一个大顶堆，一个小顶堆。对于一个区间的数列，一半放在小顶堆，另一半放在大顶堆上，保证小顶堆的最小值大于大顶堆的最大值。然后动态维护这两个堆，堆顶元素即为中位数。
+
 ### LeetCode Weekly Contest 13
 Link: https://leetcode.com/contest/leetcode-weekly-contest-13
 - (A). Hamming Distance
