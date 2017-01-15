@@ -4,7 +4,7 @@ I will record some valuable problems.
 
 ## Contents
 
-### LeetCode Weekly Contest 14
+### LeetCode Weekly Contest 15
 Link: https://leetcode.com/contest/leetcode-weekly-contest-15/
 - (A). Max Consecutive Ones
 	- Solution: 循环遍历计数
