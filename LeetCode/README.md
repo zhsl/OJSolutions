@@ -5,6 +5,15 @@ I will record some valuable problems.
 ## Contents
 
 ### LeetCode Weekly Contest 14
+Link: https://leetcode.com/contest/leetcode-weekly-contest-15/
+- (A). Max Consecutive Ones
+	- Solution: 循环遍历计数
+- (B). Max Consecutive Ones II
+	- Solution: 先预处理，对于每个数，找到左右最远的1, 然后相减求最大值即可。
+- (C). Zuma Game
+	- Solution: 搜索＋贪心。对于 hand 中的每个字符 x，每次插入 board 的时候，肯定优先插入与 x 相同的位置然后搜索即可，注意插入完之后要删除字符串。
+
+### LeetCode Weekly Contest 14
 Link: https://leetcode.com/contest/leetcode-weekly-contest-14
 - (A). Number Complement
 	- Solution: Easy Problem
