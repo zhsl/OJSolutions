@@ -4,6 +4,17 @@ I will record some valuable problems.
 
 ## Contents
 
+### LeetCode Weekly Contest 21
+Link: https://leetcode.com/contest/leetcode-weekly-contest-21/
+- (A). Minimum Absolute Difference in BST
+	- Solution: 遍历 BST，保存节点值，然后排序求最小。或者中序遍历 BST 直接求最小。
+- (B). Continuous Subarray Sum
+	- Solution: 求前缀和，前缀和单调递增，遍历前缀和，对于每个区间值，二分查找。还有 O(n) 的做法，求前缀和，对前缀和除 k 取余，遍历前缀和，看前面是否出现过相同的余数即可。
+- (C). Longest Word in Dictionary through Deleting
+	- Solution: 对于每个 dictionary 判断一下，符合要求的保存下来，然后按照规则排序。
+- (D). Minesweeper
+	- Solution: 按照规则 dfs 遍历。
+
 ### LeetCode Weekly Contest 20
 Link: https://leetcode.com/contest/leetcode-weekly-contest-20/
 - (A). Detect Capital
