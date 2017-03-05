@@ -4,6 +4,17 @@ I will record some valuable problems.
 
 ## Contents
 
+### LeetCode Weekly Contest 22
+Link: https://leetcode.com/contest/leetcode-weekly-contest-22/
+- (A). K-diff Pairs in an Array
+	- Solution: 直接用 set 处理一下。
+- (B). Lonely Pixel I
+	- Solution: 数组计数，然后暴力枚举。
+- (C). Lonely Pixel II
+	- Solution: 数组技术，然后暴力枚举，需要预处理一下。
+- (D). Freedom Trail
+	- Solution: 可以用搜索，也可以DP。f[i][j] 表示 ring 中的第 i 个字符在 12 点钟方向且已匹配 key 中 j 个字符所需要的最少的步数。``f[i][j] = Min(f[i][j], f[k][j-1] + min_step, k=0~n)``
+
 ### LeetCode Weekly Contest 21
 Link: https://leetcode.com/contest/leetcode-weekly-contest-21/
 - (A). Minimum Absolute Difference in BST
