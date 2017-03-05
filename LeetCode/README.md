@@ -62,6 +62,40 @@ Link: https://leetcode.com/contest/leetcode-weekly-contest-19/
 	- Solution: 对于数组中的每个数，查找前面比它的数的个数，然后求和。遍历数组，对于前面的树，用平衡树保存，然后就可以在 O(log n) 的时间内查找比当前数大的个数。或者离散化然后用线段树 or 树状数组处理。代码最短的写法就是用 vector 维护单调数列，然后 lower_bound() 直接查找。
 	- Note: ``nums[i] > 2*nums[j]``可能会溢出，改为``(nums[i]+1)/2 > nums[j]``。
 
+### LeetCode Weekly Contest 18A
+Link: https://leetcode.com/contest/leetcode-weekly-contest-18a/
+- (A). Keyboard Row
+	- Solution: 字符串映射处理。
+- (B). Most Frequent Subtree Sum
+	- Solution: dfs 递归树，求子树和，然后更新最优值。
+- (C). IPO
+	- Solution: 优先队列搞之。
+
+### LeetCode Weekly Contest 17
+Link: https://leetcode.com/contest/leetcode-weekly-contest-17/
+- (A). Find Mode in Binary Search Tree
+	- Solution: dfs 中序遍历二叉树，然后判断最优值。
+- (B). Teemo Attacking
+	- Solution: 遍历数组，求区间覆盖长度。
+- (C). ``i'cant touch the problem``
+
+### LeetCode Weekly Contest 16B
+Link: https://leetcode.com/contest/leetcode-weekly-contest-16b/
+- (A). Construct the Rectangle
+	- Solution: 直接枚举判断。
+- (B). Predict the Winner
+	- Solution: dfs 构造博弈树。
+- (C). Smallest Good Base
+	- Solution: 二分枚举。
+
+### LeetCode Weekly Contest 16A
+Link: https://leetcode.com/contest/leetcode-weekly-contest-16a/
+- (A). ``i'cant touch the problem``
+- (B). Target Sum
+	- Solution: dfs 枚举。
+- (C). Increasing Subsequences
+	- Solution: dfs 枚举。
+
 ### LeetCode Weekly Contest 15
 Link: https://leetcode.com/contest/leetcode-weekly-contest-15/
 - (A). Max Consecutive Ones
