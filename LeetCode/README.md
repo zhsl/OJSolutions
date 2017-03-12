@@ -74,14 +74,16 @@ Link: https://leetcode.com/contest/leetcode-weekly-contest-19/
 	- Solution: 对于数组中的每个数，查找前面比它的数的个数，然后求和。遍历数组，对于前面的树，用平衡树保存，然后就可以在 O(log n) 的时间内查找比当前数大的个数。或者离散化然后用线段树 or 树状数组处理。代码最短的写法就是用 vector 维护单调数列，然后 lower_bound() 直接查找。
 	- Note: ``nums[i] > 2*nums[j]``可能会溢出，改为``(nums[i]+1)/2 > nums[j]``。
 
-### LeetCode Weekly Contest 18A
-Link: https://leetcode.com/contest/leetcode-weekly-contest-18a/
-- (A). Keyboard Row
-	- Solution: 字符串映射处理。
-- (B). Most Frequent Subtree Sum
-	- Solution: dfs 递归树，求子树和，然后更新最优值。
-- (C). IPO
-	- Solution: 优先队列搞之。
+### LeetCode Weekly Contest 18B
+Link: https://leetcode.com/contest/leetcode-weekly-contest-18b/
+- (A). Next Greater Element I
+	- Solution: 暴力枚举查找。
+- (B). Relative Ranks
+	- Solution: 排序记录位置。
+- (C). Next Greater Element II
+	- Solution: 单调栈维护。
+- (D). Diagonal Traverse
+	- Solution: 遍历每个斜串的起始位置，奇偶处理。
 
 ### LeetCode Weekly Contest 17
 Link: https://leetcode.com/contest/leetcode-weekly-contest-17/
