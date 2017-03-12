@@ -4,6 +4,18 @@ I will record some valuable problems.
 
 ## Contents
 
+### LeetCode Weekly Contest 23
+Link: https://leetcode.com/contest/leetcode-weekly-contest-23/
+- (A). Reverse String II
+	- Solution: 用 reverse 处理一下。
+- (B). Minimum Time Difference
+	- Solution: 转化成分钟，然后排序，求相邻时间的差值最小。
+- (C). Construct Binary Tree from String
+	- Solution: dfs 处理。
+- (D). Word Abbreviation
+	- Solution: 扫描 dict，对每个字符串压缩，对于压缩编码相同的所用字符串，进行排序，相邻两个字符串的最长公共前缀就是压缩后的前缀。这里求前缀也可以用字典树处理。
+	- Node: 题目没有说得很清楚，这里解释一下：给 n 个字符串，对每个字符串进行压缩，压缩的规则：1. 只保留第一个字符和最后一个字符，中间的字符串压缩为其长度，用数字表示。2. 根据第一条规则压缩后，会有些字符串的压缩编码相同。对于这些字符串，要把第一个字母变为更长的前缀，使得压缩后，每个字符串的前缀都不相同。
+
 ### LeetCode Weekly Contest 22
 Link: https://leetcode.com/contest/leetcode-weekly-contest-22/
 - (A). K-diff Pairs in an Array
