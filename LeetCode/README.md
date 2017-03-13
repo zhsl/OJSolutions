@@ -85,6 +85,15 @@ Link: https://leetcode.com/contest/leetcode-weekly-contest-18b/
 - (D). Diagonal Traverse
 	- Solution: 遍历每个斜串的起始位置，奇偶处理。
 
+### LeetCode Weekly Contest 18A
+Link: https://leetcode.com/contest/leetcode-weekly-contest-18a/
+- (A). Keyboard Row
+	- Solution: 字符串映射处理。
+- (B). Most Frequent Subtree Sum
+	- Solution: dfs 递归树，求子树和，然后更新最优值。
+- (C). IPO
+	- Solution: 优先队列搞之。
+
 ### LeetCode Weekly Contest 17
 Link: https://leetcode.com/contest/leetcode-weekly-contest-17/
 - (A). Find Mode in Binary Search Tree
