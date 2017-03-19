@@ -4,6 +4,17 @@ I will record some valuable problems.
 
 ## Contents
 
+### LeetCode Weekly Contest 24
+Link: https://leetcode.com/contest/leetcode-weekly-contest-24/
+- (A). Diameter of Binary Tree
+	- Solution: dfs 求解。
+- (B). Convert BST to Greater Tree
+	- Solution: 平衡二叉树，优先遍历右子树即可。
+- (C). 01 Matrix
+	- Solution: 多源路径的 BFS 求最短路，对于每个源点入队列，然后求最短路即可。
+- (D). Output Contest Matches
+	- Solution: 排序求解合并即可。
+
 ### LeetCode Weekly Contest 23
 Link: https://leetcode.com/contest/leetcode-weekly-contest-23/
 - (A). Reverse String II
